@@ -45,6 +45,7 @@ def nyc_pigeon_organizer (data)
     end 
   end 
   x = final.keys
+  binding.pry
   data[:color].each do |bird_color, name|
     name.each do |bird_name|
       x.each do |item|
