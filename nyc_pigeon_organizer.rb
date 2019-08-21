@@ -48,7 +48,6 @@ def nyc_pigeon_organizer (data)
   data[:color].each do |bird_color, name|
     name.each do |bird_name|
       x.each do |item|
-        binding.pry
         if bird_name === item
           final[item][:color] << bird_color.to_s
         end 
@@ -58,6 +57,7 @@ def nyc_pigeon_organizer (data)
   data[:gender].each do |gender, type|
     type.each do |bird_name|
       x.each do |item|
+       binding.pry
         if bird_name === item
           final[item][:gender] << gender.to_s
         end 
