@@ -16,4 +16,13 @@ so finally we can compare the value and the new method variable so it becomes tr
 
 We will now push into a new hash with name as the variable passed earlier and then [:color] = birds color that we passed at the start. 
 
+We will do the same for gender and lives. but we do not have to define a variale at start we can use the same variable. 
+Variable was x at start of iteration of colors. 
+
+def nyc_pigeon_organizer(data) 
+hash = {}
+data.each do |key,value| 
+
+
+
 
