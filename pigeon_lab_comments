@@ -11,5 +11,8 @@ We will now work on individual keys starting with color.
 We will assign a variable. 
 Then we will iterate over the data with our newly formed key  color. we will pass key and value. 
 Then iterate again over the value with each do method both times this and assign a key. 
-now we will iterate over the variable we assigned at the start and iterate. 
+now we will iterate over the variable we assigned at the start. It will be the birds name all together if you check binding.pry. 
+so finally we can compare the value and the new method variable so it becomes true. once its true 
+
+
 
