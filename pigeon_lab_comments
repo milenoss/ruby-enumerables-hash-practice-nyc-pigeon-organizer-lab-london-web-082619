@@ -22,6 +22,17 @@ Variable was x at start of iteration of colors.
 def nyc_pigeon_organizer(data) 
 hash = {}
 data.each do |key,value| 
+value.each do |k, d|
+d.each do |m|
+hash[m] = { :color => [], :gender =>[], :lives =>[] }
+  end
+  end
+  end
+  
+
+     
+     
+     
 
 
 
