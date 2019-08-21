@@ -1,2 +1,3 @@
-# We start with assinging a empty hash so that the new data goes in the hash. lets say hash ={}
-Now we will iterate over 
+# We will pass a parameter in the method (data)
+We start with assinging a empty hash so that the new data goes in the hash. lets say hash ={}
+Now we will iterate over the data with each method and give a key and value. 
