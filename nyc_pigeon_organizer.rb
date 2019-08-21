@@ -1,3 +1,5 @@
+require 'pry'
+
 pigeon_data = {
   :color => {
     :purple => ["Theo", "Peter Jr.", "Lucky"],
@@ -33,7 +35,9 @@ def nyc_pigeon_organizer (data)
   final = {}
 
   data.each do |first_level, all_other|
+    binding.pry
     all_other.each do |category, array|
+      
       array.each do |name|
         final[name] = {:color => [], :gender => [], :lives => []}
       end 
