@@ -5,4 +5,4 @@ This will give us the key and value which is rest of the data.
 Now will take the value and iterate again to get the first key and array data. 
 We will now iterate over the value to pull elements and provide and pass a variable in the block. 
 
-We will then use our empty hash{} and create key 
+We will then use our empty hash{} with the value and assign it create key for color , gender and lives 
