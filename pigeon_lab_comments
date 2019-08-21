@@ -8,8 +8,10 @@ We will now iterate over the value to pull elements and provide and pass a varia
 We will then use our empty hash{} with the value and assign it create key for "color" , "gender" and "lives "
 
 We will now work on individual keys starting with color. 
-We will assign a variable. 
-Then we will iterate over the data with our newly formed key  color. we will pass key and value. 
+We will assign a variable to the x = hash.keys. 
+Then we will iterate over the data with our newly formed key  color. and use data[color] to iterate. we will pass key and value. 
+x = hash.keys
+hash[color]
 Then iterate again over the value with each do method both times this and assign a key. 
 now we will iterate over the variable we assigned at the start. It will be the birds name all together if you check binding.pry. 
 so finally we can compare the value and the new method variable so it becomes true. once its true 
