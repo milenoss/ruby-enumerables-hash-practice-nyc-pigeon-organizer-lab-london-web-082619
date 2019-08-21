@@ -7,6 +7,9 @@ We will now iterate over the value to pull elements and provide and pass a varia
 
 We will then use our empty hash{} with the value and assign it create key for "color" , "gender" and "lives "
 
-
+We will now work on individual keys starting with color. 
+We will assign a variable. 
+Then we will iterate over the data with our newly formed key  color. we will pass key and value. 
+Then iterate again over the value with each do method both the times. 
 
 
