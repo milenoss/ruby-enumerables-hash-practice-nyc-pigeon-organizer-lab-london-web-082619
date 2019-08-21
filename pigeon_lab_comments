@@ -1,1 +1,2 @@
-# We start with assinging a empty hash. 
+# We start with assinging a empty hash so that the new data goes in the hash. lets say hash ={}
+Now we will iterate over 
