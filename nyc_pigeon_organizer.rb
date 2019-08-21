@@ -60,7 +60,7 @@ def nyc_pigeon_organizer (data)
        
         if bird_name === item
           final[item][:gender] << gender.to_s
-          binding.pry
+
         end 
       end 
     end 
