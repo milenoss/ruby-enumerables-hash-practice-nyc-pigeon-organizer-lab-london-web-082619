@@ -14,4 +14,6 @@ Then iterate again over the value with each do method both times this and assign
 now we will iterate over the variable we assigned at the start. It will be the birds name all together if you check binding.pry. 
 so finally we can compare the value and the new method variable so it becomes true. once its true 
 
-We will now push into a new hash with name as the variable passed earlier and then [:color] = bird_name or the variable 
+We will now push into a new hash with name as the variable passed earlier and then [:color] = birds color that we passed at the start. 
+
+
