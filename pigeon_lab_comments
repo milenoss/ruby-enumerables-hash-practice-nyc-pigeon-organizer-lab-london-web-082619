@@ -2,16 +2,18 @@
 We start with assinging a empty hash so that the new data goes in the hash. lets say hash ={}
 Now we will iterate over the data with each method and give a key and value. 
 This will give us the key and value which is rest of the data.
-Now will take the value and iterate again to get the first key and array data. 
+Now will take the value and iterate again to get the first key and array
 We will now iterate over the value to pull elements and provide and pass a variable in the block. 
 
 We will then use our empty hash{} with the value and assign it create key for "color" , "gender" and "lives "
 
 We will now work on individual keys starting with color. 
-We will assign a variable to the x = hash.keys. 
+We will assign a variable to the 
+x = hash.keys. hash keys will point out to all the names. 
 Then we will iterate over the data with our newly formed key  color. and use data[color] to iterate. we will pass key and value. 
 x = hash.keys
-hash[color]
+data[:color].each do| keys, value| 
+
 Then iterate again over the value with each do method both times this and assign a key. 
 now we will iterate over the variable we assigned at the start. It will be the birds name all together if you check binding.pry. 
 so finally we can compare the value and the new method variable so it becomes true. once its true 
